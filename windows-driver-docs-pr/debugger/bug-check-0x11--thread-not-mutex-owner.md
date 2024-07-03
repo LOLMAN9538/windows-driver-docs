@@ -17,7 +17,7 @@ api_type:
 
 The THREAD\_NOT\_MUTEX\_OWNER bug check has a value of 0x00000011.
 
-This bug check appears very infrequently.
+This bug check appears very infrequently and typically occurs when a thread tries to release a mutex it doesn't own.
 
 > [!IMPORTANT]
 > This article is for programmers. If you're a customer who has received a blue screen error code while using your computer, see [Troubleshoot blue screen errors](https://www.windows.com/stopcode).
